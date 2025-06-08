@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.eventplanner.EventListController">
+    <children>
+        <ListView fx:id="eventListView" layoutX="14.0" layoutY="14.0" prefHeight="300.0" prefWidth="570.0"/>
+        <Button text="Add Event" layoutX="250.0" layoutY="330.0" onAction="#handleAddEvent"/>
+    </children>
+</AnchorPane>

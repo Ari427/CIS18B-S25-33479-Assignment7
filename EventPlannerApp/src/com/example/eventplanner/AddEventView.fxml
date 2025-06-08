@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="10" alignment="CENTER"
+      fx:controller="com.example.eventplanner.AddEventController" style="-fx-padding: 20;">
+    <TextField fx:id="titleField" promptText="Event Title"/>
+    <DatePicker fx:id="datePicker"/>
+    <TextArea fx:id="descriptionArea" promptText="Description"/>
+    <Button text="Add Event" onAction="#handleAddEvent"/>
+</VBox>

@@ -1,0 +1,10 @@
+{
+  "jdk.jdkhome": "/Users/arianakram/Downloads/jdk-21.0.7.jdk/Contents/Home",
+  "java.project.sourcePaths": [
+    "src"
+  ],
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "/Applications/Java/javafx-sdk-21.0.7/lib/*.jar"
+  ]
+}
